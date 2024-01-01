@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_bar{
+    height: 60px;
+    background: #314755;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26a0da, #314755);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26a0da, #314755); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.navbar-toggler{
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+}
+.img_logo{
+    height:60px;
+    border-radius:5px;
+    width: 70%;
+    margin: 0;
+}
+.button{
+    color:white;
+}
+.custom_link{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    margin-left:30px;
+    line-height: 50px;
+}
+.active{
+    color: rgb(233, 210, 4);
+}
+.custom_link:hover{
+    color: rgb(216, 74, 18);
+}
+.craousel{
+    height: 400px;
+}
+.cat_list{
+   
+    background-color:rgb(216, 74, 18);
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+    height: 400px;
+}
+.cat_list li{
+    list-style: none;
+    margin-top: 10px;
+   
+}
+.cat_list li a{
+    text-decoration: none;
+    color: #e7ebec;
+    font-weight: 700;
+}
+.cat_list li i{
+    text-decoration: none;
+    color: #e7ebec;
+  font-size: 25px;
+ padding-left: 5px;
+}
+
+.cat_list li a:hover{
+    color: #7ebb1c;
+}
+.product_card{
+    height: 100px;
+}
+.cat_img{
+   height: 50px; 
+   width: 50%;
+   margin: auto;
+}
+.product{
+    height: 150px; 
+    width: 50%;
+    margin: auto;
+}
+.pro_card{
+    height:400px;
+}
+.button{
+    display: block;
+    color: rgb(215, 243, 243);
+    background-color: #26a0da;
+}
